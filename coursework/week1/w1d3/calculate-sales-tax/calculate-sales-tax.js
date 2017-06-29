@@ -22,8 +22,6 @@ var companySalesData = [
   }
 ];
 
-// TO CALCULATE THE TOTAL SALES
-
 function calculateSalesTotal(salesData){
   var total = 0;
   for(var x = 0; x < salesData.length; x++){
@@ -60,9 +58,6 @@ function calculateSalesTax(companySalesData, salesTaxRates){
   return (totalSalesData);
 
 }
-
-
-
 
 var results = calculateSalesTax(companySalesData, salesTaxRates);
 console.log(results);
